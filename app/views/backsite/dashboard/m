@@ -1,0 +1,21 @@
+<style>
+  
+        @keyframes glow {
+            0% { color: #00f; text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f; }
+            25% { color: #800080; text-shadow: 0 0 10px #800080, 0 0 20px #800080, 0 0 30px #800080; }
+            50% { color: #FFC0CB; text-shadow: 0 0 10px #FFC0CB, 0 0 20px #FFC0CB, 0 0 30px #FFC0CB; }
+            75% { color: #808080; text-shadow: 0 0 10px #808080, 0 0 20px #808080, 0 0 30px #808080; }
+            100% { color: #00f; text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f; }
+        }
+
+        .glow {
+            display: inline-block;
+            font-size: 2em;
+            animation: glow 4s infinite;
+            text-align: center; /* Menengahkan teks ke tengah */
+        }
+    </style>
+</head>
+<body>
+    <h1 class="glow">Selamat Datang, Administrator Perpustakaan SMPS PGRI</h1>
+</body>
